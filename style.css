@@ -1,0 +1,121 @@
+body{
+    background-color:#f4f4f4;
+    margin: 0px;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+       margin:0;
+        padding:0;  
+}
+
+header{
+  background:#121211;
+  color:#ffffff;
+  padding-top:10px;
+  min-height:70px;
+  border-bottom:#cdf006 3px solid;
+}
+header li  {
+display: inline;
+float: left;
+padding: 20px;
+
+}
+header #dd{
+    float: left;
+}
+
+header nav{
+    float: right; /* search right space and set elements here */
+    margin: 10px;
+}
+header a{
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header a:hover{
+    color: #f5e000;
+    cursor: pointer;
+    text-align: bold;
+}
+.active{
+  color: rgb(0, 249, 166);
+
+}
+.active {
+  background-color: #04AA6D;
+}
+  #sec{
+    height: 400px;
+    background:url(./images/wp3328061.png) no-repeat  ;
+
+  }
+  .h2{
+    color: hsl(295, 94%, 58%);
+    text-align: center;
+    font-size: 55px;
+  }
+  .h{
+    color:aliceblue ;   
+    font-size: 25px;
+    text-align: center;
+  }
+  .h1{
+    padding-top: 20px;
+    color:aliceblue ;   
+    font-size: 15px;
+    text-align: center;
+  }
+  .boxes {
+    margin-top: 30px;
+  }
+ .boxes .box{
+    width: 30%;
+    float:left;
+    text-align: center;
+    padding-right: 20px;
+
+
+  }
+  .boxes .box img{
+    width: 50%;
+  }
+  .foot{
+    height: 80px;
+    background-color: #f76d04;
+    color: #121211;
+   
+  }
+  @media screen and (max-width:600px) {
+    header a{
+      float: none;
+      display: block;
+      
+    }
+    
+  }
+  
+@media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+  }
+}
+
+  @media screen and (max-width:768px){
+header,.boxes .box, header a {
+  display: block;
+    width: 100%;
+    float: none;
+    text-align: center;
+
+}
+  }
